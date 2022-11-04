@@ -1,0 +1,17 @@
+{
+  "name": "pdfkit-pdfa-sample",
+  "version": "1.0.0",
+  "description": "Sample code for generating PDF/A document with PDFKit.",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pádraig Galvin",
+  "license": "MIT",
+  "dependencies": {
+    "node-forge": "^1.3.1",
+    "node-signpdf": "^1.5.0",
+    "pdfkit": "^0.13.0"
+  }
+}
